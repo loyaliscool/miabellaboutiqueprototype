@@ -73,9 +73,9 @@ const Hero = () => (
   <section className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
     <div className="absolute inset-0 z-0">
       <img 
-        src="https://picsum.photos/seed/boutique-interior/1920/1080?blur=2" 
-        alt="Boutique Interior" 
-        className="w-full h-full object-cover opacity-60"
+        src="https://i.imgur.com/kBnk5xS.png" 
+        alt="Mia Bella's Boutique Storefront" 
+        className="w-full h-full object-cover opacity-70"
         referrerPolicy="no-referrer"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-ivory/40 via-transparent to-ivory"></div>
@@ -175,10 +175,10 @@ const Features = () => {
 
 const Collections = () => {
   const items = [
-    { title: "Seasonal Decor", desc: "Transform your home with our unique holiday collections.", img: "seasonal" },
-    { title: "Jewelry", desc: "Handpicked pieces that tell a beautiful story.", img: "jewelry" },
-    { title: "Gifts & Home", desc: "Thoughtful accents for every corner of your life.", img: "home" },
-    { title: "Holiday Specials", desc: "Limited edition items for the most wonderful time of year.", img: "holiday" },
+    { title: "Seasonal Decor", desc: "Transform your home with our unique holiday collections.", img: "https://i.imgur.com/4v8cjRG.png" },
+    { title: "Jewelry", desc: "Handpicked pieces that tell a beautiful story.", img: "https://i.imgur.com/TXJ2Roe.png" },
+    { title: "Gifts & Home", desc: "Thoughtful accents for every corner of your life.", img: "https://i.imgur.com/upfXtQF.png" },
+    { title: "Holiday Specials", desc: "Limited edition items for the most wonderful time of year.", img: "https://i.imgur.com/ft9anY6.png" },
   ];
 
   return (
@@ -204,7 +204,7 @@ const Collections = () => {
             >
               <div className="aspect-[4/5] overflow-hidden">
                 <img 
-                  src={`https://picsum.photos/seed/boutique-${item.img}/600/800`} 
+                  src={item.img} 
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
@@ -233,8 +233,8 @@ const Experience = () => (
           <div className="absolute -top-10 -left-10 w-64 h-64 bg-blush/20 rounded-full blur-3xl z-0"></div>
           <div className="relative z-10 rounded-[40px] overflow-hidden shadow-2xl">
             <img 
-              src="https://picsum.photos/seed/boutique-experience/800/1000" 
-              alt="Boutique Experience" 
+              src="https://i.imgur.com/gw0vTRI.png" 
+              alt="The Mia Bella's Experience" 
               className="w-full h-auto"
               referrerPolicy="no-referrer"
             />
